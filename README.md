@@ -1,7 +1,7 @@
 # Carcassonne
 This project is an implementation of a Carcassonne game (single player) using the C++ programming language and SFML.
 
-This game using Visual C++ 15 (2017) - 64-bit SFML, Download from: https://www.sfml-dev.org/files/SFML-2.5.1-windows-vc15-64-bit.zip
+This game was tested with Visual C++ 15 (2017) - 64-bit SFML, Download from: https://www.sfml-dev.org/files/SFML-2.5.1-windows-vc15-64-bit.zip
 !Link libraries before building!
 
 Carcassonne -> Properties:
