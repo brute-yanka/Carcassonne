@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/puzzle.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Carcassonne társasjáték</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="Images/puzzle.png" alt="Logó képe">
+                Carcassonne
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Kezdőlap</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#features" class="nav__link">Rövid Bemutató</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#game" class="nav__link">Játék</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#rules" class="nav__link">Szabályok</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#usage" class="nav__link">Program használata</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+                <img src="Images/puzzle.png" alt="Menü képe" class="nav__img">
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-4-line"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="shape__small"></div>
+            <div class="shape__big"></div>
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        <span>Carcassonne</span> Stratégiai játék
+                        <img src="Images/puzzle.png" class="home__title-img" alt="Kezdőlap képe">
+                    </h1>
+                    <p class="home__description">
+                        A Carcassonne egy világszinten elterjedt társasjáték, ahol a játékosok kiraknak lapokat a térképre, hogy területeket építsenek ki és kontrolláljanak.
+                        A játék végén a játékosok pontokat kapnak a kontrollált területeik alapján, és a legtöbb pontot szerző játékos nyer.
+                    </p>
+                    <a href="#features" class="button">Tovább</a>
+                </div>
+                <img src="Images/geographical-location.png" class="home__img" alt="Kezdőlap képe">
+            </div>
+        </section>
+        <section class="features section" id="features">
+            <div class="shape__small"></div>
+            <h2 class="section__title">Fontosabb Tudnivalók</h2>
+            <div class="features__container container grid">
+                <div class="features__card">
+                    <img src="Images/delhi-gate.png" alt="Kategória kártya képe" class="features__img">
+                    <h3 class="features__title">Városok</h3>
+                    <p class="features__description">
+                        A városok a térképen kirakható területek, amelyeket körülkerítő falak jelölnek.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="features__star">
+                </div>
+                <div class="features__card">
+                    <img src="Images/road.png" alt="Kategória kártya képe" class="features__img">
+                    <h3 class="features__title">Utak</h3>
+                    <p class="features__description">
+                        Az utak a térképen kirakható területek, amelyeket körülkerítő vonalak jelölnek.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="features__star">
+                </div>
+                <div class="features__card">
+                    <img src="Images/delhi-gate-w.png" alt="Kategória kártya képe" class="features__img">
+                    <h3 class="features__title">Kolostorok</h3>
+                    <p class="features__description">
+                        A kolostor egyfajta terület, amelyet a játékosok kirakhatnak a térképre.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="features__star">
+                </div>
+            </div>
+        </section>
+        <section class="game section" id="game">
+            <div class="shape__small"></div>
+            <div class="shape__big"></div>
+            <div class="game__container container grid">
+                <div class="game__data">
+                    <h2 class="section__title">
+                        A Játékről Röviden
+                    </h2>
+                    <p class="game__description">
+                        A játék célja, hogy a játékosok minél több területet építsenek ki a térképen, a kirakott lapok segítségével.
+                        A játék végén a játékosok pontokat kapnak a kontrollált területek alapján, és a cél, hogy rekordot döntsenek.
+                        A Carcassonne egy könnyen tanulható, de nehéz felépítésű játék, amelyet szívesen játszanak a családok és baráti társaságok.
+                    </p>
+                    <a href="#rules" class="button">Tovább olvasom!</a>
+                </div>
+                <img src="Images/first-place-medal.png" alt="Játék képe" class="game__img">
+            </div>
+        </section>
+        <section class="rules section" id="rules">
+            <div class="shape__big"></div>
+            <h2 class="section__title">
+                Ismerje meg a játék szabályzatát
+            </h2>
+            <div class="rules__container container grid">
+                <article class="rules__card">
+                    <img src="Images/squid-game-eagle-mask.png" alt="Szabályzat képe" class="rules__img">
+                    <h3 class="rules__title">Egyszemélyes játék</h3>
+                    <p class="rules__description">A játékot jelenleg egy személy játszhatja.</p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="rules__star">
+                </article>
+                <article class="rules__card">
+                    <img src="Images/grid-n-glass.png" alt="Szabályzat képe" class="rules__img">
+                    <h3 class="rules__title">80 db területkártya</h3>
+                    <p class="rules__description">A lapok különböző városrészeket, útszakaszokat, kereszteződéseket, réteket és kolostorokat ábrázolnak.</p>
+                    
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="rules__star">
+                </article>
+                <article class="rules__card">
+                    <img src="Images/c-plus-plus.png" alt="Szabályzat képe" class="rules__img">
+                    <h3 class="rules__title">Véletlenszerű kártyahúzás</h3>
+                    <p class="rules__description">A számítógép minden körben véletlenszerűen kiválaszt egy lerakandó területkártyát.</p>
+                                        <img src="Images/puzzle.png" alt="Kategória kártya képe" class="rules__star">
+                </article>
+                <article class="rules__card">
+                    <img src="Images/tri-open-cuboids.png" alt="Szabályzat képe" class="rules__img">
+                    <h3 class="rules__title">Kártyák lehelyezése</h3>
+                    <p class="rules__description">A kártyák lerakása csak akkor lehetséges, ha legalább egy oldala illeszkedik egy már lerakott laphoz.</p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="rules__star">
+                </article>
+                <article class="rules__card">
+                    <img src="Images/trophy.png" alt="Szabályzat képe" class="rules__img">
+                    <h3 class="rules__title">Pontszámítás</h3>
+                    <p class="rules__description">A számítógép a játék végén kiszámítja a szerzett pontokat, melyek tárolásra kerülnek.</p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="rules__star">
+                </article>
+            </div>
+        </section>
+        <section class="usage section" id="usage">
+            <div class="shape__small"></div>
+            <h2 class="section__title">Program használata</h2>
+            <div class="usage__container container grid">
+                <div class="usage__card">
+                    <img src="Images/user-account.png" alt="Kategória kártya képe" class="usage__img">
+                    <h3 class="usage__title">Felhasználónév</h3>
+                    <p class="usage__description">
+                        Minden játéknál <b>kötelező</b> megadni a felhasználónevet, mivel ez alapján lehet beazonosítani a ranglistán a szerzett pontszámot.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="usage__star">
+                </div>
+                <div class="usage__card">
+                    <img src="Images/keyboard.png" alt="Kategória kártya képe" class="usage__img">
+                    <h3 class="usage__title">Felhasználónév megadása</h3>
+                    <p class="usage__description">
+                        <b>Csak az ABC karakterei használhatók</b>. A véglegesítés az <i>ENTER</i> gombbal végezhető, módosítása pedig a <i>BACKSPACE</i>-el.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="usage__star">
+                </div>
+                <div class="usage__card">
+                    <img src="Images/trophy.png" alt="Kategória kártya képe" class="usage__img">
+                    <h3 class="usage__title">Ranglista</h3>
+                    <p class="usage__description">
+                        A lementett játék körökben elért pontszám alapján a program ranglistát készít, amivel tájékozódhatunk az eredményekről.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="usage__star">
+                </div>
+                <div class="usage__card">
+                    <img src="Images/ios-settings.png" alt="Kategória kártya képe" class="usage__img">
+                    <h3 class="usage__title">Beállítási lehetőségek</h3>
+                    <p class="usage__description">
+                        A felhasználónak lehetősége van változtatni a játék felbontását, illetve a teljes képernyős mód beállítását.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="usage__star">
+                </div>
+                <div class="usage__card">
+                    <img src="Images/camera.png" alt="Kategória kártya képe" class="usage__img">
+                    <h3 class="usage__title">Kamera</h3>
+                    <p class="usage__description">
+                        A kamerát a <i>W-A-S-D</i> billentyűkkel lehet vezérelni. Természetesen ezek személyre szabhatók a Config fájlban.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="usage__star">
+                </div>
+                <div class="usage__card">
+                    <img src="Images/mobile-in-hand.png" alt="Kategória kártya képe" class="usage__img">
+                    <h3 class="usage__title">Elem lerakása</h3>
+                    <p class="usage__description">
+                        Az elem lerakása a Bal egérgombbal tehető meg. Fontos, hogy csak megfelelő irányba rakható le az elem, ami függ a már lent lévők pozíciójától.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="usage__star">
+                </div>
+                <div class="usage__card">
+                    <img src="Images/upload-arrow.png" alt="Kategória kártya képe" class="usage__img">
+                    <h3 class="usage__title">Elem forgatása</h3>
+                    <p class="usage__description">
+                        Az elem forgatása a Balra, illetve Jobbra mutató nyíllal végezhető el. A forgatás a nyíl irányába történik.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="usage__star">
+                </div>
+                <div class="usage__card">
+                    <img src="Images/wall-clock.png" alt="Kategória kártya képe" class="usage__img">
+                    <h3 class="usage__title">Szünet lehetősége</h3>
+                    <p class="usage__description">
+                        A játék során lehetséges szünetet (<i>Escape</i>) tartani. Ez idő alatt a játékmenet is szünetel. Továbbá itt található a játékfolytatás/mentés lehetőség.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="usage__star">
+                </div>
+                <div class="usage__card">
+                    <img src="Images/video-play.png" alt="Kategória kártya képe" class="usage__img">
+                    <h3 class="usage__title">Játékok visszanézési lehetősége</h3>
+                    <p class="usage__description">
+                        Ha a játékos úgy dönt, hogy később fejezné be a játékot, akkor lementheti (<i>Mentés</i>), majd folytathatja (<i>Betöltés</i>) azt.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="usage__star">
+                </div>
+                <div class="usage__card">
+                    <img src="Images/dashboard-growth.png" alt="Kategória kártya képe" class="usage__img">
+                    <h3 class="usage__title">Játék vége</h3>
+                    <p class="usage__description">
+                        A játék két féle képpen érhet véget. (<i>1</i>) Ha betelik a játéklap vagy (<i>2</i>) ha a húzott lap már nem tehető le. Ekkor felugrik egy ablak, ahol a statisztikákat megtekinthetjük.
+                    </p>
+                    <img src="Images/puzzle.png" alt="Kategória kártya képe" class="usage__star">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="shape__small"></div>
+        <div class="shape__big"></div>
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="Images/puzzle.png" alt="Logo képe">
+                    Carcassonne
+                </a>
+                <p class="footer__description">Stratégiai társasjáték</p>
+            </div>
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">Készítők</h3>
+                    <ul class="footer__links">
+                        <li class="footer__item">
+                            Ónadi Péter
+                        </li>
+                        <li class="footer__item">
+                            Ilyés Bence
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">Részletes játék leírások</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="Szabályzat.pdf" download="" class="footer__item">Szabályzat</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=sBEpLnhEfEE" target="_blank" class="footer__item">YouTube bemutató videó</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">Források</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="https://iconscout.com/" target="_blank" class="footer__item">Képek</a>
+                        </li>
+                        <li>
+                            <a href="https://hu.wikipedia.org/wiki/Carcassonne_(j%C3%A1t%C3%A9k)" target="_blank" class="footer__item">Tartalom</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">Közösségi média</h3>
+                    <ul class="footer__socials">
+                        <a href="https://kolcseygimnazium.hu/" class="footer__social-link">
+                            <i class="ri-building-2-fill"></i>
+                        </a>
+                        <a href="https://www.facebook.com/VilledeCarcassonne/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/explore/locations/80175317/carcassonne/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <span class="footer__copy">&#169 Copyright OPIB. Minden jog fenntartva</span>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up"><i class="ri-arrow-drop-up-line"></i></a>
+    <script src="scrollreveal.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
